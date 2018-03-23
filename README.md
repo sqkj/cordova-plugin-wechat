@@ -6,6 +6,8 @@ A cordova plugin, a JS version of Wechat SDK
 
 Share title, description, image, and link to wechat moment(朋友圈)，choose invoice from Wechat list
 
+can share screenshot image for ios and android
+
 # Example
 
 See [cordova-plugin-wechat-example](https://github.com/xu-li/cordova-plugin-wechat-example)
