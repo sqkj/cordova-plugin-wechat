@@ -456,8 +456,8 @@ static int const MAX_THUMBNAIL_SIZE = 320;
     }
     else
     {
-        // local file
-        url = [[NSBundle mainBundle] pathForResource:[url stringByDeletingPathExtension] ofType:[url pathExtension]];
+        // local file not from resource
+        //url = [[NSBundle mainBundle] pathForResource:[url stringByDeletingPathExtension] ofType:[url pathExtension]];
         data = [NSData dataWithContentsOfFile:url];
     }
 
