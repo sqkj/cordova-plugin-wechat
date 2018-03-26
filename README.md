@@ -8,13 +8,10 @@ Share title, description, image, and link to wechat moment(朋友圈)，choose i
 
 can share screenshot image for ios and android
 
-# Example
-
-See [cordova-plugin-wechat-example](https://github.com/xu-li/cordova-plugin-wechat-example)
 
 # Install
 
-1. ```cordova plugin add cordova-plugin-wechat  --variable wechatappid=YOUR_WECHAT_APPID```, or using [plugman](https://npmjs.org/package/plugman), [phonegap](https://npmjs.org/package/phonegap), [ionic](http://ionicframework.com/)
+1. ```cordova plugin add cordova-plugin-wechatv2  --variable wechatappid=YOUR_WECHAT_APPID```, or using [plugman](https://npmjs.org/package/plugman), [phonegap](https://npmjs.org/package/phonegap), [ionic](http://ionicframework.com/)
 
 2. ```cordova build ios``` or ```cordova build android```
 
@@ -128,21 +125,6 @@ Wechat.chooseInvoiceFromWX(data,function(data){
 })
 ```
 
-# FAQ
-
-See [FAQ](https://github.com/xu-li/cordova-plugin-wechat/wiki/FAQ).
-
-# TODO
-
-1. ~~Add android version~~
-
-2. ~~Share to wechat session(聊天) and wechat favorite(收藏)~~
-
-3. ~~Add other media types, including music etc.~~
-
-4. ~~Other APIs~~
-
-5. ~~Android Version update~~
 
 # LICENSE
 
