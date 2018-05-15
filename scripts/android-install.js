@@ -38,10 +38,10 @@ module.exports = function (context) {
         console.info("Android platform has not been added.");
         return ;
     }
-
-    var targetDir  = path.join(projectRoot, "platforms", "android", "src", packageName.replace(/\./g, path.sep), "wxapi");
+    //Users/earsui/apps/guoanjiaApp/platforms/android/app/src/main/java modify path
+    var targetDir  = path.join(projectRoot, "platforms", "android","app","src","main","java", packageName.replace(/\./g, path.sep), "wxapi");
         targetFiles = ["EntryActivity.java", "WXEntryActivity.java", "WXPayEntryActivity.java"];
-
+    console.log("targetDir:"+targetDir);
     if (['after_plugin_add', 'after_plugin_install'].indexOf(context.hook) === -1) {
         // remove it?
         targetFiles.forEach(function (f) {
